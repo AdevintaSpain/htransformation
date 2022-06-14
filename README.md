@@ -13,7 +13,7 @@ pilot:
 experimental:
   devPlugin:
     goPath: /home/tm/go
-    moduleName: github.com/tomMoulard/htransformation
+    moduleName: github.com/gustauperez/htransformation
 
 entryPoints:
   http:
