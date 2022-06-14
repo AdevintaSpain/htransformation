@@ -17,7 +17,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ${{ github.workspace }}/go/src/github.com/tommoulard/htransformation
+        working-directory: ${{ github.workspace }}/go/src/github.mpi-internal.com/devops-re--htransformation
 
     steps:
       - name: Set up Go ${{ env.GO_VERSION }}
@@ -28,7 +28,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
         with:
-          path: go/src/github.com/tommoulard/htransformation
+          path: go/src/github.mpi-internal.com/devops-re--htransformation
           fetch-depth: 0
 
       - name: Cache Go modules

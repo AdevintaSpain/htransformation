@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	plug "github.com/gustauperez/htransformation"
-	"github.com/gustauperez/htransformation/pkg/types"
+	plug "github.mpi-internal.com/devops-re--htransformation"
+	"github.mpi-internal.com/devops-re--htransformation/pkg/types"
 )
 
 func TestValidation(t *testing.T) {

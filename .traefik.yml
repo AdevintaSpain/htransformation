@@ -1,7 +1,7 @@
 displayName: Header transformation
 type: middleware
 
-import: github.com/gustauperez/htransformation
+import: github.mpi-internal.com/devops-re--htransformation
 
 summary: 'Transform some headers with some other ones, see https://github.com/traefik/traefik/issues/6047'
 

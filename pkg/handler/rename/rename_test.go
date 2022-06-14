@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/gustauperez/htransformation/pkg/handler/rename"
-	"github.com/gustauperez/htransformation/pkg/types"
+	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/rename"
+	"github.mpi-internal.com/devops-re--htransformation/pkg/types"
 )
 
 func TestRenameHandler(t *testing.T) {

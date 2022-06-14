@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/gustauperez/htransformation/pkg/handler/set"
-	"github.com/gustauperez/htransformation/pkg/types"
+	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/set"
+	"github.mpi-internal.com/devops-re--htransformation/pkg/types"
 )
 
 func TestSetHandler(t *testing.T) {

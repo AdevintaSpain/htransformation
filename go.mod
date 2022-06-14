@@ -1,4 +1,4 @@
-module github.com/gustauperez/htransformation
+module github.mpi-internal.com/devops-re--htransformation
 
 go 1.13
 
