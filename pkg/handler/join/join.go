@@ -9,11 +9,13 @@ import (
 
 func Handle(_ http.ResponseWriter, req *http.Request, rule types.Rule) {
 	if val, ok := req.Header[rule.Header]; ok {
-		tmpVal := val[0]
+		tmpVal := ""
 
 		for _, value := range rule.Values {
-			tmpVal += rule.Sep + getValue(value, rule.HeaderPrefix, req)
+			tmpVal += getValue(value, rule.HeaderPrefix, req) + rule.Sep 
 		}
+
+		tmpVal += val[0]
 
 		req.Header.Del(rule.Header)
 		req.Header.Add(rule.Header, tmpVal)
