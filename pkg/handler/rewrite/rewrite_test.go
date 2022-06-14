@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/rewrite"
-	"github.mpi-internal.com/devops-re--htransformation/pkg/types"
+	"github.com/AdevintaSpain/htransformation/pkg/handler/rewrite"
+	"github.com/AdevintaSpain/htransformation/pkg/types"
 )
 
 func TestRewriteHandler(t *testing.T) {

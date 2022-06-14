@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/deleter"
-	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/join"
-	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/rename"
-	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/rewrite"
-	"github.mpi-internal.com/devops-re--htransformation/pkg/handler/set"
-	"github.mpi-internal.com/devops-re--htransformation/pkg/types"
+	"github.com/AdevintaSpain/htransformation/pkg/handler/deleter"
+	"github.com/AdevintaSpain/htransformation/pkg/handler/join"
+	"github.com/AdevintaSpain/htransformation/pkg/handler/rename"
+	"github.com/AdevintaSpain/htransformation/pkg/handler/rewrite"
+	"github.com/AdevintaSpain/htransformation/pkg/handler/set"
+	"github.com/AdevintaSpain/htransformation/pkg/types"
 )
 
 // HeadersTransformation holds the necessary components of a Traefik plugin.

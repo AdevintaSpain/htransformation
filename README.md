@@ -13,7 +13,7 @@ pilot:
 experimental:
   devPlugin:
     goPath: /home/tm/go
-    moduleName: github.mpi-internal.com/devops-re--htransformation
+    moduleName: github.com/AdevintaSpain/htransformation
 
 entryPoints:
   http:

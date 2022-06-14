@@ -3,7 +3,7 @@ package set
 import (
 	"net/http"
 
-	"github.mpi-internal.com/devops-re--htransformation/pkg/types"
+	"github.com/AdevintaSpain/htransformation/pkg/types"
 )
 
 func Handle(_ http.ResponseWriter, req *http.Request, rule types.Rule) {
